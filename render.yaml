@@ -1,5 +1,6 @@
 services:
-  - type: static
+  - type: web
     name: shri-sai-tent-house
+    runtime: static
     buildCommand: npm run build
     staticPublishPath: ./dist
