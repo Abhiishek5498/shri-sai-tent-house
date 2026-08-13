@@ -1,6 +1,5 @@
 services:
-  - type: web
+  - type: static
     name: shri-sai-tent-house
-    env: static
     buildCommand: npm run build
-    publishDir: dist
+    staticPublishPath: ./dist
